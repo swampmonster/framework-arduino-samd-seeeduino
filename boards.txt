@@ -1,0 +1,89 @@
+
+######################################################
+#Wio_Lite_W600 (WITH) BOOTLOADER
+Wio_Lite_W600.name=Seeeduino Wio Lite W600
+Wio_Lite_W600.vid.0=0x2886
+Wio_Lite_W600.pid.0=0x8028
+Wio_Lite_W600.vid.1=0x2886
+Wio_Lite_W600.pid.1=0x0028
+Wio_Lite_W600.upload.tool=bossac
+Wio_Lite_W600.upload.protocol=sam-ba
+Wio_Lite_W600.upload.maximum_size=262144
+Wio_Lite_W600.upload.use_1200bps_touch=true
+Wio_Lite_W600.upload.wait_for_upload_port=true
+Wio_Lite_W600.upload.native_usb=true
+Wio_Lite_W600.build.mcu=cortex-m0plus
+Wio_Lite_W600.build.f_cpu=48000000L
+Wio_Lite_W600.build.usb_product="Seeeduino_Wio_Lite_W600"
+Wio_Lite_W600.build.board=Wio_Lite_W600
+Wio_Lite_W600.build.core=arduino
+Wio_Lite_W600.build.extra_flags=-D__SAMD21G18A__ -mthumb {build.usb_flags}
+Wio_Lite_W600.build.ldscript=linker_scripts/gcc/flash_with_bootloader.ld
+Wio_Lite_W600.build.openocdscript=openocd_scripts/Wio_Lite_W600.cfg
+Wio_Lite_W600.build.variant=Wio_Lite_W600
+Wio_Lite_W600.build.variant_system_lib=
+Wio_Lite_W600.build.vid=0x2886
+Wio_Lite_W600.build.pid=0x8028
+Wio_Lite_W600.bootloader.tool=openocd
+Wio_Lite_W600.bootloader.file=Wio_Lite_W600/Bootloader_D21.hex
+
+
+
+######################################################
+#LOTUS (WITH) BOOTLOADER
+lotusM0.name=Seeeduino Lotus - Cortex-M0+
+lotusM0.vid.0=0x2886
+lotusM0.pid.0=0x8026
+lotusM0.vid.1=0x2886
+lotusM0.pid.1=0x0026
+lotusM0.upload.tool=bossac
+lotusM0.upload.protocol=sam-ba
+lotusM0.upload.maximum_size=262144
+lotusM0.upload.use_1200bps_touch=true
+lotusM0.upload.wait_for_upload_port=true
+lotusM0.upload.native_usb=true
+lotusM0.build.mcu=cortex-m0plus
+lotusM0.build.f_cpu=48000000L
+lotusM0.build.usb_product="Seeeduino_lotus"
+lotusM0.build.usb_manufacturer="Seeed LLC"
+lotusM0.build.board=Lotus
+lotusM0.build.core=arduino
+lotusM0.build.extra_flags=-D__SAMD21G18A__ -mthumb {build.usb_flags}
+lotusM0.build.ldscript=linker_scripts/gcc/flash_with_bootloader.ld
+lotusM0.build.openocdscript=openocd_scripts/lotus.cfg
+lotusM0.build.variant=lotus
+lotusM0.build.variant_system_lib=
+lotusM0.build.vid=0x2886
+lotusM0.build.pid=0x8026
+lotusM0.bootloader.tool=openocd
+lotusM0.bootloader.file=lotus/Bootloader_D21.hex
+
+######################################################
+#Cortex_M0+ (WITH) BOOTLOADER
+Cortex_M0+.name=Seeeduino Cortex M0+
+Cortex_M0+.vid.0=0x2886
+Cortex_M0+.pid.0=0x8027
+Cortex_M0+.vid.1=0x2886
+Cortex_M0+.pid.1=0x0027
+Cortex_M0+.upload.tool=bossac
+Cortex_M0+.upload.protocol=sam-ba
+Cortex_M0+.upload.maximum_size=262144
+Cortex_M0+.upload.use_1200bps_touch=true
+Cortex_M0+.upload.wait_for_upload_port=true
+Cortex_M0+.upload.native_usb=true
+Cortex_M0+.build.mcu=cortex-m0plus
+Cortex_M0+.build.f_cpu=48000000L
+Cortex_M0+.build.usb_product="Seeeduino_Cortex_M0+"
+Cortex_M0+.build.board=Cortex_M0+
+Cortex_M0+.build.core=arduino
+Cortex_M0+.build.extra_flags=-D__SAMD21G18A__ -mthumb {build.usb_flags}
+Cortex_M0+.build.ldscript=linker_scripts/gcc/flash_with_bootloader.ld
+Cortex_M0+.build.openocdscript=openocd_scripts/Cortex_M0+.cfg
+Cortex_M0+.build.variant=Cortex_M0+
+Cortex_M0+.build.variant_system_lib=
+Cortex_M0+.build.vid=0x2886
+Cortex_M0+.build.pid=0x8027
+Cortex_M0+.bootloader.tool=openocd
+Cortex_M0+.bootloader.file=Cortex_M0+/Bootloader_D21.hex
+
+
